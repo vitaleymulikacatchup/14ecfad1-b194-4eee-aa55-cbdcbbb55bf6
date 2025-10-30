@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -10,7 +10,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { MessageCircle, Rocket, TrendingUp, Users, Zap } from "lucide-react";
+import { MessageCircle, Rocket, TrendingUp, Users, Zap, Twitter, Github, Instagram } from "lucide-react";
 
 export default function Home() {
   return (
@@ -121,7 +121,7 @@ export default function Home() {
               description: "Former NASA engineer turned meme lord. Built rockets, now builds generational wealth through epic memes!",
               imageSrc: "https://images.pexels.com/photos/7653460/pexels-photo-7653460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
-                { icon: "Twitter", url: "https://twitter.com/memeMasterMax" }
+                { icon: Twitter, url: "https://twitter.com/memeMasterMax" }
               ]
             },
             {
@@ -131,7 +131,7 @@ export default function Home() {
               description: "Coded her first smart contract at 12. Now she codes money printers for diamond hands!",
               imageSrc: "https://images.pexels.com/photos/5483155/pexels-photo-5483155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
-                { icon: "Github", url: "https://github.com/diamonddevsarah" }
+                { icon: Github, url: "https://github.com/diamonddevsarah" }
               ]
             },
             {
@@ -141,7 +141,7 @@ export default function Home() {
               description: "Made 50 million people laugh in one day. Now he makes MoonCoin the most viral crypto ever!",
               imageSrc: "https://images.pexels.com/photos/13883855/pexels-photo-13883855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
-                { icon: "Instagram", url: "https://instagram.com/viralvictor" }
+                { icon: Instagram, url: "https://instagram.com/viralvictor" }
               ]
             }
           ]}
